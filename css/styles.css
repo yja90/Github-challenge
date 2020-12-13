@@ -7,15 +7,21 @@ body {
   text-align: center;
   margin: 0;
 }
+ p { position: relative;
+ bottom: 15px;
+font-family: Merriweather;
+font-size: 10px;
+color: #696969;}
 
-div {
-  margin: 0;
-}
+h2 {font-family:Merriweather; }
 
 hr {
   position: relative;
   bottom: 30px;
 }
+
+.bottom-container {margin: 0;
+padding: 0;}
 
 .card-container {
   background: white;
@@ -24,7 +30,8 @@ hr {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+  ;
 }
 
 .profile-picture {
@@ -68,14 +75,25 @@ h4 {
 .followers {
   display: inline-block;
   margin-right: 40px;
+  position: relative;
+  bottom:20px;
 }
 
 .likes {
   display: inline-block;
   margin: 0 20px 0 20px;
+  position: relative;
+  bottom:20px;
 }
 
 .photos {
   display: inline-block;
   margin: 0 0 0 40px;
+  position: relative;
+  bottom:20px;
+}
+
+.attribution {position: absolute;
+top: 100%;
+left:550px;
 }
